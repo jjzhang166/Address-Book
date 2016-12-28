@@ -7,7 +7,7 @@
  */
 void AddressBook::updateInterface(Mode mode)
 {
-    current Mode = mode;
+    currentMode = mode;
 
     switch(currentMode) {
     case AddingMode :
